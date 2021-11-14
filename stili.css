@@ -4,12 +4,12 @@
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
     max-width: 1140px;
-    height: 100%;
     margin: 0 auto;
-    padding-bottom: 10px;
+}
+
+.footerheight {
+    height: 660px;
 }
 
 html,
@@ -19,7 +19,7 @@ body {
 
 .top {
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    height: 768px;
+    min-height: 768px;
 }
 
 .top_box {
@@ -34,6 +34,7 @@ body {
     padding-top: 115px;
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: 44%;
 }
 
 .header {
@@ -230,12 +231,12 @@ body {
 }
 
 .backfoot {
-    display: flex;
+    display: block;
     position: relative;
     max-width: 100%;
-    height: 657px;
     background: #316099;
     margin-top: 112px;
+    height: 100%;
 }
 
 .heading_foot {
@@ -260,19 +261,15 @@ body {
 
 .foot_button {
     display: inline-block;
-    position: absolute;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.04em;
     color: #FFFFFF;
     background: #5A98D0;
-    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
-    border-radius: auto;
     text-decoration: none;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
     padding: 15px 80px;
-    top: 165px;
-    right: 115px;
+    margin-top: 165px;
+    margin-right: 114px;
 }
 
 .hr_stil {
@@ -281,7 +278,9 @@ body {
 }
 
 .lasttext {
-    width: 495px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .headfoot {
@@ -319,15 +318,13 @@ body {
 /* Далее следуют стили для страницы "Контакты" */
 
 .top_contact {
-    padding: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     max-width: 100%;
-    height: 471px;
 }
 
 .top_box_contact {
     display: flex;
     flex-direction: column;
-    margin: 0px 113px 44px 113px;
 }
 
 .header_contact {
@@ -335,14 +332,14 @@ body {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding-top: 42px;
+    padding: 16px;
 }
 
 .top_info_contact {
+    background-position: center;
     background-size: cover;
     background-image: url(pic/back_cont.png);
     background-repeat: no-repeat;
-    height: 300px;
     max-width: 100%;
 }
 
@@ -355,11 +352,12 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    padding-top: 60px;
+    padding-top: 30px;
     margin-bottom: 16px;
 }
 
 .base_text_contact {
+    padding-bottom: 30px;
     font-size: 20px;
     line-height: 30px;
     width: 100%;
@@ -372,7 +370,8 @@ body {
 
 .pageheader {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
     margin-top: 60px;
 }
 
@@ -389,6 +388,7 @@ body {
 
 .adess_list {
     margin-top: 56px;
+    width: 50%;
 }
 
 .adress_heading {
@@ -483,14 +483,10 @@ body {
 
 .feedback {
     position: relative;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    background: rgb(255, 255, 255);
-    font-size: 24px;
-    line-height: 36px;
-    width: 540px;
-    height: 800px;
-    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    width: 50%;
+    padding: 56px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgb(16 112 177 / 20%);
     border-radius: 10px;
 }
 
@@ -500,9 +496,6 @@ body {
     line-height: 30px;
     letter-spacing: 0.04em;
     color: #1F3F68;
-    margin-top: 56px;
-    margin-left: 112px;
-    margin-bottom: 48px;
     font-weight: bold
 }
 
@@ -517,11 +510,12 @@ body {
 }
 
 .feedback_area {
-    width: 428px;
-    height: 72px;
+    width: 100%;
+    height: 50px;
     opacity: 0.4;
     border: 1px solid #356EAD;
     box-sizing: border-box;
+    resize: vertical;
     border-radius: 10px;
     font-weight: 300;
     font-size: 16px;
@@ -533,7 +527,7 @@ body {
 
 .area_text {
     padding-top: 21px;
-    height: 144px;
+    height: 170px;
 }
 
 .mapsite {
@@ -545,27 +539,27 @@ body {
 }
 
 .formtext {
-    display: flex;
-    flex-direction: column;
+    max-width: 100%;
     font-size: 24px;
     color: #1F3F68;
-    padding-left: 112px;
     margin-right: auto;
 }
 
 .sub1 {
-    width: 428px;
-    height: 72px;
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgb(16 112 177 / 20%);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px 0;
+    width: 100%;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    text-align: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
-    text-transform: uppercase;
-    background: #5A98D0;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
+    margin-top: 65px;
 }
 
 .boxlist1 {

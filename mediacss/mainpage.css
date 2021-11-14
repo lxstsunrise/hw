@@ -1,0 +1,182 @@
+@media (max-width: 1139px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .top_info {
+        background-position: right 280px;
+    }
+    .cardbox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 32px;
+    }
+    .backfoot {
+        display: flex;
+        position: relative;
+        max-width: 100vw;
+        height: 100%;
+        background: #316099;
+        margin-top: 112px;
+    }
+    .lasttext {
+        width: 100%;
+        margin-top: -42px;
+    }
+    .foot_text {
+        width: 340px;
+    }
+    .foot_button {
+        padding: 10px 30px;
+        white-space: nowrap;
+    }
+    .fbstil {
+        margin-left: 40px;
+        padding-top: 54px;
+    }
+    .boxlist {
+        display: block;
+    }
+    .box_pad {
+        padding-top: 25px;
+    }
+    .hr_stil {
+        margin-left: -35px;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        padding-top: 24px;
+    }
+    .top {
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+    .top_info {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+    .top_heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+    .text {
+        text-align: center;
+    }
+    .text_card {
+        width: auto;
+    }
+    .gen-text {
+        width: 100%;
+        text-align: center;
+    }
+    .top_button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+    }
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .what-we-do {
+        padding-top: 48px;
+    }
+    .cardbox {
+        padding-top: 32px;
+    }
+    .card {
+        width: 100%;
+    }
+    .text_project {
+        width: 100%;
+    }
+    .project_text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        right: 16px;
+    }
+    .project_text2 {
+        top: 16px;
+        left: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .project_text3 {
+        top: 16px;
+        left: 16px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .project_parent {
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .project_item_margin {
+        margin-right: 0px;
+        margin-bottom: 16px;
+    }
+    .backfoot {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        background: #316099;
+        margin-top: 75px;
+    }
+    .lasttext {
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        margin-top: -42px;
+        box-sizing: border-box;
+    }
+    .foot_text {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .foot_button {
+        width: 120px;
+        margin: 0 auto;
+        margin-top: -95px;
+        display: block;
+        text-align: center;
+        padding: 10px 15px;
+        white-space: nowrap;
+    }
+    .fbstil {
+        box-sizing: border-box;
+        margin-left: 0px;
+        padding-top: 0 auto;
+    }
+    .boxlist {
+        display: block;
+        margin: 0px
+    }
+    .box_pad {
+        padding-top: 25px;
+        text-align: center;
+    }
+    .hr_stil {
+        width: 100vw;
+        margin-left: -35px;
+    }
+    .heading_foot {
+        margin-left: 0px;
+        margin-top: 61px;
+        width: 100%;
+        text-align: center;
+    }
+}

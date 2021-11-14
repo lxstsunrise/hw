@@ -1,0 +1,168 @@
+    @media (max-width: 1139px) {
+        .container {
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+        .header_contact {
+            width: 100%;
+            padding: 35px 0px;
+        }
+        .base_text_contact {
+            box-sizing: border-box;
+        }
+        .pageheader {
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .comms {
+            text-align: -webkit-center;
+            margin-bottom: 64px;
+        }
+        .phones {
+            padding-left: 0px;
+        }
+        .serv_links {
+            padding-left: 0px;
+        }
+        /*  */
+        .backfoot {
+            display: flex;
+            position: relative;
+            max-width: 100vw;
+            height: 100%;
+            background: #316099;
+            margin-top: 112px;
+        }
+        .lasttext {
+            width: 100%;
+            margin-top: -42px;
+        }
+        .foot_text {
+            width: 340px;
+        }
+        .foot_button {
+            padding: 10px 30px;
+            white-space: nowrap;
+        }
+        .fbstil {
+            margin-left: 40px;
+            padding-top: 54px;
+        }
+        .boxlist {
+            display: block;
+        }
+        .box_pad {
+            padding-top: 25px;
+        }
+        .hr_stil {
+            margin-left: -35px;
+            width: 100vw;
+        }
+        .mapsite {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .boxlist1 {
+            flex-direction: column;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .feedback {
+            width: 70%;
+        }
+        .feedback_area {
+            padding-left: 0px;
+        }
+        .comms {
+            text-align: -webkit-auto;
+            margin-bottom: 64px;
+        }
+        .phones {
+            width: 100%;
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        .serv_links {
+            padding-top: 20px;
+            padding-left: 30px;
+        }
+        .sub1 {
+            margin-top: 46px;
+            padding: 12px 0;
+        }
+        .mapsite {
+            margin-top: 32px;
+        }
+        .backfoot {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            background: #316099;
+            margin-top: 75px;
+        }
+        .lasttext {
+            display: block;
+            flex-direction: column;
+            width: 100%;
+            margin-top: -42px;
+            box-sizing: border-box;
+        }
+        .foot_text {
+            margin-left: 0px;
+            width: 100%;
+            text-align: center;
+        }
+        .foot_button {
+            width: 120px;
+            margin: 0 auto;
+            margin-top: -95px;
+            display: block;
+            text-align: center;
+            padding: 10px 15px;
+            white-space: nowrap;
+        }
+        .fbstil {
+            box-sizing: border-box;
+            margin-left: 0px;
+            padding-top: 0 auto;
+        }
+        .boxlist {
+            display: block;
+            margin: 0px
+        }
+        .boxlist1 {
+            align-content: flex-end;
+        }
+        .box_pad {
+            padding-top: 25px;
+            text-align: center;
+        }
+        .hr_stil {
+            width: 100vw;
+            margin-left: -35px;
+        }
+        .heading_foot {
+            margin-left: 0px;
+            margin-top: 61px;
+            width: 100%;
+            text-align: center;
+        }
+        .copyright {
+            display: block;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .feedback {
+            width: 50%;
+        }
+    }
+    
+    @media (max-width: 376px) {
+        .boxlist1 {
+            margin-right: 70px;
+            align-content: flex-end;
+        }
+    }
