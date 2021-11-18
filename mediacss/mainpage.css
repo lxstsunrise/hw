@@ -6,12 +6,21 @@
     .top_info {
         background-position: right 280px;
     }
+    .top_button:hover {
+        font-size: 16px;
+    }
     .cardbox {
         flex-direction: column;
         align-items: center;
     }
     .card {
         margin-bottom: 32px;
+    }
+    .card:hover {
+        width: 100%;
+    }
+    .card_link:hover {
+        font-size: 14px;
     }
     .backfoot {
         display: flex;
@@ -31,6 +40,9 @@
     .foot_button {
         padding: 10px 30px;
         white-space: nowrap;
+    }
+    .foot_button:hover {
+        font-size: 16px;
     }
     .fbstil {
         margin-left: 40px;
@@ -56,6 +68,9 @@
         min-height: 376px;
         padding-bottom: 41px;
         box-sizing: border-box;
+    }
+    .top_button:hover {
+        font-size: 12px;
     }
     .top_info {
         padding-top: 36px;
