@@ -872,9 +872,6 @@ label:hover {
 }
 
 .tab_button1 {
-    position: absolute;
-    top: 945px;
-    right: 380px;
     font-size: 16px;
     line-height: 36px;
     letter-spacing: 0.04em;
@@ -883,10 +880,12 @@ label:hover {
     box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
     border: none;
     text-decoration: none;
-    padding: 10px 70px;
+    padding: 28px 70px;
+    margin-left: 945px;
 }
 
 .tab_button1:hover {
+    margin-left: 940px;
     font-size: 18px;
 }
 
