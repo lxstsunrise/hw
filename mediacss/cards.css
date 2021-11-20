@@ -1,0 +1,83 @@
+@media (max-width: 1139px) {
+    .header_advert {
+        width: auto;
+    }
+    .adv_back {
+        display: flex;
+    }
+    .adv_navigation {
+        height: auto;
+    }
+    #tab_1:checked~#txt_1 {
+        height: auto;
+        background: none;
+    }
+    #tab_2:checked~#txt_2 {
+        height: auto;
+        background: none;
+    }
+    #tab_3:checked~#txt_3 {
+        height: auto;
+        background: none;
+    }
+    #tab_4:checked~#txt_4 {
+        height: auto;
+        background: none;
+    }
+    .tab_text1 {
+        line-height: 24px;
+        width: 100%;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        font-size: 14px;
+    }
+    .tab_text2 {
+        line-height: 24px;
+        width: 100%;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        font-size: 14px;
+    }
+    .tab_text3 {
+        line-height: 24px;
+        width: 100%;
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        font-size: 14px;
+    }
+    .top_heading_advert {
+        max-width: 100%;
+        font-size: 24px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #ffffffdc;
+        padding-top: 30px;
+        margin-bottom: 16px;
+        opacity: 1;
+    }
+    .top_info_advert {
+        background-size: auto;
+    }
+    .tab_info2 {
+        margin: 0px;
+    }
+    .tab_info3 {
+        margin: 0px;
+    }
+    .tab_button1 {
+        position: sticky;
+    }
+    .tab_button1:hover {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .tab_text1 {
+        max-width: 100%;
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        position: relative;
+        color: #2E2382;
+    }
+}

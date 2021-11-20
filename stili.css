@@ -50,13 +50,6 @@ body {
     opacity: 0.5;
 }
 
-
-/*p {
-    font-size: 16px;
-    line-height: 26px;
-    color: #1F3F68;
-}*/
-
 .top_heading {
     width: 510px;
     font-weight: 300;
@@ -304,10 +297,6 @@ body {
     width: 340px;
 }
 
-
-/*.checklist{
-}*/
-
 .boxlist {
     display: flex;
     flex-wrap: wrap;
@@ -382,8 +371,6 @@ body {
     letter-spacing: 0.04em;
     color: rgba(255, 255, 255, 0.6);
 }
-
-.test {}
 
 .pageheader {
     display: flex;
@@ -641,4 +628,268 @@ body {
 
 .box_mail:hover {
     color: rgb(192, 192, 192);
+}
+
+
+/* Далее следуют стили для страницы "Реклама" */
+
+.top_advert {
+    padding: 10px 0px 0px 0px;
+    max-width: 100%;
+}
+
+.top_box_advert {
+    display: flex;
+    flex-direction: column;
+}
+
+.header_advert {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 16px;
+}
+
+.top_info_advert {
+    background-position: center;
+    background-size: cover;
+    background-image: url(pic/back_adv.png);
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.top_heading_advert {
+    font-weight: 400;
+    max-width: 100%;
+    font-size: 44px;
+    line-height: 74px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #ffffffdc;
+    padding-top: 30px;
+    margin-bottom: 16px;
+    opacity: 1;
+}
+
+.base_text_advert {
+    padding-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adv_back {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.5438550420168067) 0%, rgba(255, 255, 255, 0.8519782913165266) 0%, rgba(28, 105, 175, 0.4542191876750701) 100%);
+    min-height: 768px;
+}
+
+.adv_navigation {
+    height: 705px;
+    border: 1px solid #818181;
+    background-color: #FFFFFF;
+}
+
+.tabs {
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+label:hover {
+    color: #000;
+    opacity: 1;
+}
+
+.tabs>input {
+    display: none;
+}
+
+.tabs>div {
+    display: none;
+    padding: 12px;
+    border: 2px solid #cecece;
+    background: #FFFFFF;
+}
+
+.tabs>label {
+    display: inline-block;
+    padding: 20px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    color: #15509c;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.tabs>input:checked+label {
+    padding: 50px;
+    color: #ffffff;
+    border: none;
+    background: #ca0a2adc;
+}
+
+#tab_1:checked~#txt_1 {
+    background-image: url(pic/Target-1.png);
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-position: 700px -20px;
+    background-size: 28%;
+    display: block;
+    border: none;
+}
+
+#tab_2:checked~#txt_2 {
+    height: 310px;
+    background-image: url(pic/Creative-1.png);
+    background-repeat: no-repeat;
+    background-position: 400px 200px;
+    background-size: 30%;
+    display: block;
+    border: none;
+}
+
+#tab_3:checked~#txt_3 {
+    height: 310px;
+    background-image: url(pic/Integr-1.png);
+    background-repeat: no-repeat;
+    background-position: 400px 150px;
+    background-size: 30%;
+    display: block;
+    border: none;
+}
+
+#tab_4:checked~#txt_4 {
+    height: 310px;
+    background-image: url(pic/Stickers-1.png);
+    background-repeat: no-repeat;
+    background-position: 250px 150px;
+    background-size: 56%;
+    display: block;
+    border: none;
+}
+
+.tab_heading1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #ca0a2adc;
+}
+
+.tab_text1 {
+    line-height: 32px;
+    width: 50%;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    position: relative;
+    color: #2E2382;
+}
+
+.tab_text2 {
+    line-height: 16px;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    position: relative;
+    color: #2E2382;
+}
+
+.tab_text3 {
+    line-height: 32px;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    position: relative;
+    color: #2E2382;
+}
+
+.tab_info1 {
+    font-size: 36px;
+    font-weight: lighter;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #ca0a2adc;
+    padding: 50px 0px 20px;
+}
+
+.tab_info2 {
+    font-size: 36px;
+    font-weight: lighter;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #ca0a2adc;
+    padding: 50px 0px 20px;
+    margin-top: 168px;
+}
+
+.tab_info3 {
+    font-size: 36px;
+    font-weight: lighter;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #ca0a2adc;
+    padding: 50px 0px 20px;
+    margin-top: 200px;
+}
+
+.hrad {
+    border: 1px solid #2E2382;
+}
+
+.tab_list1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+.tab_colsitem {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    height: 80%;
+}
+
+.tab_listtext::marker {
+    content: "—   ";
+    color: #ca0a2adc;
+    font-weight: bolder;
+}
+
+.tab_listtext {
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #2E2382;
+}
+
+.tab_button1 {
+    position: absolute;
+    top: 945px;
+    right: 380px;
+    font-size: 16px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #ca0a2adc;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border: none;
+    text-decoration: none;
+    padding: 10px 70px;
+}
+
+.tab_button1:hover {
+    font-size: 18px;
+}
+
+.footadv {
+    margin: 0px;
 }
