@@ -1,11 +1,11 @@
 @media (max-width: 1139px) {
-    .header_advert {
+    .header_avert {
         width: auto;
     }
-    .adv_back {
+    .av_back {
         display: flex;
     }
-    .adv_navigation {
+    .av_navigation {
         height: auto;
     }
     #tab_1:checked~#txt_1 {
@@ -45,7 +45,7 @@
         letter-spacing: 0.05em;
         font-size: 14px;
     }
-    .top_heading_advert {
+    .top_heading_avert {
         max-width: 100%;
         font-size: 24px;
         text-align: center;
@@ -55,7 +55,7 @@
         margin-bottom: 16px;
         opacity: 1;
     }
-    .top_info_advert {
+    .top_info_avert {
         background-size: auto;
     }
     .tab_info2 {
@@ -65,6 +65,8 @@
         margin: 0px;
     }
     .tab_button1 {
+        padding: 10px 70px;
+        margin-left: 0px;
         position: sticky;
     }
     .tab_button1:hover {
