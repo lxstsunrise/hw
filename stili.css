@@ -633,17 +633,17 @@ body {
 
 /* Далее следуют стили для страницы "Реклама" */
 
-.top_advert {
+.top_avert {
     padding: 10px 0px 0px 0px;
     max-width: 100%;
 }
 
-.top_box_advert {
+.top_box_avert {
     display: flex;
     flex-direction: column;
 }
 
-.header_advert {
+.header_avert {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -651,7 +651,7 @@ body {
     padding: 16px;
 }
 
-.top_info_advert {
+.top_info_avert {
     background-position: center;
     background-size: cover;
     background-image: url(pic/back_adv.png);
@@ -659,7 +659,7 @@ body {
     max-width: 100%;
 }
 
-.top_heading_advert {
+.top_heading_avert {
     font-weight: 400;
     max-width: 100%;
     font-size: 44px;
@@ -673,7 +673,7 @@ body {
     opacity: 1;
 }
 
-.base_text_advert {
+.base_text_avert {
     padding-bottom: 30px;
     font-size: 20px;
     line-height: 30px;
@@ -683,13 +683,13 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.adv_back {
+.av_back {
     background: rgb(255, 255, 255);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.5438550420168067) 0%, rgba(255, 255, 255, 0.8519782913165266) 0%, rgba(28, 105, 175, 0.4542191876750701) 100%);
     min-height: 768px;
 }
 
-.adv_navigation {
+.av_navigation {
     height: 705px;
     border: 1px solid #818181;
     background-color: #FFFFFF;
@@ -889,6 +889,6 @@ label:hover {
     font-size: 18px;
 }
 
-.footadv {
+.footav {
     margin: 0px;
 }
